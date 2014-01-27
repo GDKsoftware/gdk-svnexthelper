@@ -1,0 +1,3 @@
+/svn/Main/Delphi-app-common/Diagrams diagram
+/svn/Main/Delphi-app-common/AppModules Modules
+/svn/Main/Delphi-common common

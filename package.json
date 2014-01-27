@@ -1,0 +1,11 @@
+{
+  "name": "node-svnexthelper",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">= 0.10.21"
+  },
+  "devDependencies": {
+    "svn": "git://github.com/GDKsoftware/node-svn.git#dev"
+  },
+  "private": true
+}
