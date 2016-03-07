@@ -63,7 +63,7 @@ svnobj.externals.get({remote: remoteurl}, function(err, data) {
 
   var sep = data.split(" ");
 
-  svnobj.info( svnroot + sep[0], function(error, result) {
+  svnobj.info(remoteurl + " " + sep[0], function(error, result) {
     newexternals[iLineId] = "-r" + result['Last Changed Rev'] + " " + data;
   });
 
